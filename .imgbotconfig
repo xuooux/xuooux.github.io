@@ -1,0 +1,14 @@
+{
+    "schedule": "weekly", // 执行周期 daily|weekly|monthly 将 Imgbot 的 PR 分别限制为每天一次、每周一次或每月一次
+    "ignoredFiles": [
+        "*.jpg",                   // ignore by extension
+        "image1.png",              // ignore by filename
+        "public/special_images/*", // ignore by folderpath
+    ],
+    "aggressiveCompression": "false", // 是否有损压缩 true|false
+    "compressWiki": "true", // true|false
+    "minKBReduced": 300, // 最小 KB 阈值 delay new prs until size reduction meets this threshold (default to 10)
+    "prTitle" : "ImgBot Compress PR",        
+    "prBody" : " Text before optimization ratio {optimization_ratio} Text after optimization ratio 
+                 Text before optimization details {optimization_details} Text after optimization details",
+}
