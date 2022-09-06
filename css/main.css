@@ -2093,3 +2093,34 @@ input[type=checkbox] {
     margin-left: 1rem;
   }
 }
+psw {
+  color: transparent;
+  background: #a1a1a1;
+  border-radius: 2px;
+  transition: all 0.28s ease;
+}
+psw:hover {
+  color: var(--post-text-color);
+  background: none;
+}
+del {
+  color: #8e8e8e;
+}
+u {
+  color: var(--post-text-color);
+  text-decoration: none;
+  border-bottom: 2px solid #fe5f58;
+}
+emp {
+  color: var(--post-text-color);
+  border-bottom: 4px dotted #fe5f58;
+}
+wavy {
+  color: var(--post-text-color);
+  text-decoration-style: wavy;
+  text-decoration-line: underline;
+  text-decoration-color: #fe5f58;
+}
+pandown {
+  background: var(--tag-pandown-bg-color) !important;
+}
