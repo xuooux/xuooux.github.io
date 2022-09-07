@@ -49,6 +49,8 @@ function pandown() {
 
 
 //页面加载后运行
+setTimeout(pandown(),1000);
+
 if (window.onload) {
     window.onload += function () {
         pandown();
