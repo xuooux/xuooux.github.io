@@ -1,7 +1,7 @@
 {
-    "schedule": "weekly", // 执行周期 daily|weekly|monthly 将 Imgbot 的 PR 分别限制为每天一次、每周一次或每月一次
+    "schedule": "daily", // 执行周期 daily|weekly|monthly 将 Imgbot 的 PR 分别限制为每天一次、每周一次或每月一次
     "ignoredFiles": [
-        "*.jpg",                   // ignore by extension
+        //"*.jpg",                   // ignore by extension
         "image1.png",              // ignore by filename
         "public/special_images/*", // ignore by folderpath
     ],
